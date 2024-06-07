@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function About() {
   return (
     <div className="max-w-6xl mx-auto p-3 flex flex-col space-y-4">

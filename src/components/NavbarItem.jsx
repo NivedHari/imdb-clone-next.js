@@ -1,8 +1,17 @@
 "use client";
+import React, { Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
-export default function NavbarItem({ title, param }) {
+export default function NavBarItem({ title, param }) {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <NavbarItemComponent title={title} param={param}/>
+    </Suspense>
+  );
+}
+
+function NavbarItemComponent({ title, param }) {
   const searchParams = useSearchParams();
   const genre = searchParams.get("genre");
   return (
