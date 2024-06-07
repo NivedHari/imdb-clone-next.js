@@ -12,7 +12,8 @@ export default function Card({ result }) {
           }`}
           width={500}
           height={300}
-          className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
+          alt={"Image is not available"}
+          className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300 h-[200px]"
         ></Image>
         <div className="p-2">
           <h2 className="text-lg font-bold truncate">

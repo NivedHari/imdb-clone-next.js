@@ -7,7 +7,7 @@ export default function About() {
       <p>
         Welcome to our movie database website! We are dedicated to providing you
         with a comprehensive collection of movies from around the world. Whether
-        you're a cinephile or just looking for something new to watch, our
+        you&apos;re a cinephile or just looking for something new to watch, our
         database has something for everyone.
       </p>
 
@@ -28,7 +28,7 @@ export default function About() {
 
       <p>
         We are constantly updating our database to ensure that you have access
-        to the latest information. Whether you're looking for a specific movie
+        to the latest information. Whether you&apos;re looking for a specific movie
         or just browsing for something new, our movie database is your ultimate
         source for all things film-related.
       </p>
